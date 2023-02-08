@@ -1,0 +1,17 @@
+#N canvas 619 63 381 413 10;
+#X obj -7 46 r wolves;
+#X obj 96 52 r sheep;
+#X obj -4 338 s wolves2;
+#X obj 96 335 s sheep2;
+#X obj 96 101 * 0.5;
+#X obj -6 101 * 0.5;
+#X obj -6 165 + 120;
+#X obj 96 150 + 120;
+#X text 118 204 - map netlogo to sound values;
+#X connect 0 0 5 0;
+#X connect 1 0 4 0;
+#X connect 4 0 7 0;
+#X connect 5 0 6 0;
+#X connect 6 0 2 0;
+#X connect 7 0 3 0;
+#X coords 0 0 1 1 160 100 0;

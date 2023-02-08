@@ -1,0 +1,36 @@
+#N canvas 1114 62 404 419 10;
+#X obj 1 4 cnv 15 400 400 empty empty empty 20 12 0 14 -233017 -66577
+0;
+#X obj 18 106 osc/oscReceive 12345;
+#X obj 206 197 master/stereoOut;
+#X obj 15 209 osc/dataRouter;
+#X msg 15 46 \; pd dsp \$1;
+#X obj 15 22 tgl 15 0 empty empty empty 17 7 0 10 -191407 -1 -1 1 1
+;
+#X text 16 380 OSC_NETLOGO- CITA 2011;
+#X obj 13 245 osc/dataMapping;
+#N canvas 0 22 277 273 fm 0;
+#X obj 116 167 switch~ 0;
+#X obj 116 120 tgl 30 0 empty empty empty 17 7 0 10 -191407 -1 -1 1
+1;
+#X obj -7 177 sAgent/tone2 9;
+#X obj -10 -26 sAgent/tone2 0;
+#X obj -8 68 sAgent/tone2 4;
+#X obj -10 0 sAgent/tone2 1;
+#X obj -10 23 sAgent/tone2 2;
+#X obj -10 46 sAgent/tone2 3;
+#X obj -8 90 sAgent/tone2 5;
+#X obj -8 110 sAgent/tone2 6;
+#X obj -7 132 sAgent/tone2 7;
+#X obj -7 154 sAgent/tone2 8;
+#X connect 1 0 0 0;
+#X coords 0 -1 1 1 85 60 1 100 100;
+#X restore 300 53 pd fm;
+#X text 210 71 Audio Synth;
+#X text 273 53 -->;
+#X text 33 22 1- Turn audio ON/OFF;
+#X text 204 54 2- Activate;
+#X text 204 160 3- Adjust;
+#X text 210 177 Audio Level;
+#X obj 328 13 _about;
+#X connect 5 0 4 0;

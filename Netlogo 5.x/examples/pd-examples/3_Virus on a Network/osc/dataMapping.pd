@@ -1,0 +1,17 @@
+#N canvas 619 63 239 289 10;
+#X obj -23 79 r infected;
+#X text -31 15 - map netlogo to sound values;
+#X obj -23 199 s infected2;
+#X obj -23 121 expr 1-$f1;
+#X obj -23 147 * 2;
+#X obj 66 77 r resistant;
+#X obj 66 199 s resistant2;
+#X obj 66 124 * 2000;
+#X obj 66 155 + 200;
+#X connect 0 0 3 0;
+#X connect 3 0 4 0;
+#X connect 4 0 2 0;
+#X connect 5 0 7 0;
+#X connect 7 0 8 0;
+#X connect 8 0 6 0;
+#X coords 0 0 1 1 160 100 0;

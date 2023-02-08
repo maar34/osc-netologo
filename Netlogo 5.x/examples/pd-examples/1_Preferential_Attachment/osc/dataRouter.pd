@@ -1,0 +1,12 @@
+#N canvas 619 63 363 163 10;
+#X obj -84 -53 r allReceivedData;
+#X obj -84 -22 route /node/XCOR;
+#X obj -6 12 route /node/YCOR;
+#X obj -83 43 s turtleX;
+#X obj -6 44 s turtleY;
+#X text 46 -20 Obtain X an Y values form Turtles;
+#X connect 0 0 1 0;
+#X connect 0 0 2 0;
+#X connect 1 0 3 0;
+#X connect 2 0 4 0;
+#X coords 0 0 1 1 160 100 0;

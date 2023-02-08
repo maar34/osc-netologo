@@ -1,0 +1,10 @@
+#N canvas 1109 517 404 143 10;
+#X obj 0 0 cnv 15 400 140 empty empty empty 20 12 0 14 -233017 -66577
+0;
+#X text 9 6 - In this example you can listen the leader or the followers
+turtels of the model.;
+#X text 5 62 - Change the minumum and maximum frequency range in the
+osc/dataMapping box and set diferent frequency range for each breed.
+;
+#X text 7 35 - YCOR of each turtle control the frequency of one sine
+wave oscilator \, XCOR is mapped to the stereo position.;

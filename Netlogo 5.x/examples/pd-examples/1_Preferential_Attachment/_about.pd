@@ -1,0 +1,8 @@
+#N canvas 1114 518 403 104 10;
+#X obj 0 0 cnv 15 400 100 empty empty empty 20 12 0 14 -233017 -66577
+0;
+#X text 16 9 - In this example you can hear the new network connections
+through a simple FM synthesis that responds to the position data (XCOR
+& YCOR) of the new nodes.;
+#X text 15 55 - Change the minumum and maximum frequency range in the
+osc/dataMapping box and hear the differences.;

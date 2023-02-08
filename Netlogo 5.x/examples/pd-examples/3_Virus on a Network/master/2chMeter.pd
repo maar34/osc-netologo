@@ -1,0 +1,21 @@
+#N canvas 596 302 465 320 10;
+#X obj 157 226 tgl 15 0 empty empty empty 17 7 0 10 -162280 -258113
+-1 1 1;
+#X obj 54 41 env~;
+#X obj 376 189 switch~;
+#X obj 54 17 *~ 0.5;
+#X obj 54 69 * 1.12;
+#X obj 109 116 vu 15 120 empty empty -1 -8 0 10 -66577 -1 1 0;
+#X obj 54 -14 r~ meter;
+#X floatatom 141 53 5 0 0 0 - - -;
+#X obj 54 92 - 100;
+#X obj 189 194 loadbang;
+#X connect 0 0 2 0;
+#X connect 1 0 4 0;
+#X connect 1 0 7 0;
+#X connect 3 0 1 0;
+#X connect 4 0 8 0;
+#X connect 6 0 3 0;
+#X connect 8 0 5 0;
+#X connect 9 0 0 0;
+#X coords 0 -1 1 1 80 150 2 100 100;

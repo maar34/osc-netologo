@@ -1,0 +1,12 @@
+#N canvas 638 290 156 204 10;
+#X obj -24 92 s \$1_x;
+#X obj 8 122 s \$1_y;
+#X obj -24 44 sroute \$1;
+#X obj -23 1 r agX;
+#X obj 13 8 r agY;
+#X obj 11 69 sroute \$1;
+#X connect 2 0 0 0;
+#X connect 3 0 2 0;
+#X connect 4 0 5 0;
+#X connect 5 0 1 0;
+#X coords 0 0 1 1 140 115 0;
