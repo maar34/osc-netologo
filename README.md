@@ -1,7 +1,8 @@
 # Osc-NetLogo compilation  
 
 This repository is a compilation of the last two versions of OSC-NetLogo.
-
+![Net logo Screen for Pursuit Model](https://user-images.githubusercontent.com/862847/217657308-2ef3e854-201e-4a1f-9873-f3a048ff59ed.png)
+![Sonogram for pursuit Model](https://user-images.githubusercontent.com/862847/217657353-2f975dd1-1a6f-430a-a3c4-81e66a4b9d7a.png)
 
 # Osc-NetLogo
 OSC is a NetLogo extension that allows you to send OSC messages from it to other software (such as PureData, Wekinator, among others). This is an updated version of the [original version](https://quod.lib.umich.edu/cgi/p/pod/dod-idx/osc-netlogo-a-tool-for-exploring-the-sonification-of-complex.pdf?c=icmc;idno=bbp2372.2012.069;format=pdf) created by Rodrigo Cádiz and Marco Colasso and is compatible with the latest version of NetLogo (6.x).
